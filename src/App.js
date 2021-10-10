@@ -45,7 +45,6 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello Joep & Anja!</h1>
       <h2>Programmeertips: </h2>
       <ol>{tips.map(createListitem)}</ol>
       <form>
